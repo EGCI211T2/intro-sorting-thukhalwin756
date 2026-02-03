@@ -19,8 +19,8 @@ void display(int a[],int N){
 void bubblesort(int a[], int N){
     int i,j;
 
-    for (i = N-1; i>0; i--) {
-        for (j = 0; j < i; j++) 
+    for (i = 0; i < N-1 ; i++ ) {
+        for (j = 0; j < N - i - 1 ; j++) 
 	   { 
         if(a[j]>a[j+1]) 
         swap(a[j],a[j+1]);
