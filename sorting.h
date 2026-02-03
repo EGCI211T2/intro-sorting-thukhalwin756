@@ -11,8 +11,9 @@ void swap(int &a,int &b){
 
 void display(int a[],int N){
     for (int i = 0; i < N; i++) {
-        cout << a[i] << " "<<endl;
+        cout << a[i] << " ";
     }
+    cout << end1;
     
 }
 
